@@ -1,19 +1,19 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 
-const pageTitle = "About Me";
+const pageTitle = "Om mig";
 const happy = true;
 const finished = true;
 const goal = 3;
 
 const identity = {
-  firstName: "Sarah",
-  country: "Canada",
-  occupation: "Technical Writer",
-  hobbies: ["photography", "birdwatching", "baseball"],
+  firstName: "Andreas",
+  country: "Danmark",
+  occupation: "Lærer",
+  hobbies: ["udvikling", "fitness", "privat økonomi"],
 };
 
-const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Writing Docs"];
+const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "investering"];
 
 const skillColor = "navy";
 const fontWeight = "bold";
@@ -33,25 +33,23 @@ const textCase = "uppercase";
 </style>
 
 <BaseLayout pageTitle={pageTitle}>
-  <h2>... and my new Astro site!</h2>
+  <h2>Og denne blog.</h2>
 
   <p>
-    I am working through Astro's introductory tutorial. This is the second page
-    on my website, and it's the first one I built myself!
+    Jeg er lærer til daglig, men bruger min fritid bl.a. på at kode og på at blogge om mine drømme og projekter.
   </p>
 
   <p>
-    This site will update as I complete more of the tutorial, so keep checking
-    back and see how my journey is going!
+    Denne side er under opbygning og jeg håber at nogen har lyst til at følge med.
   </p>
 
-  {happy && <p>I am happy to be learning Astro!</p>}
+  {happy && <p>Jeg er glad for at jeg har lært at bruge astro, det gør at jeg kan have kontrol over min blog, så jeg slipper for at bruge wordpress CMS.</p>}
 
-  {finished && <p>I finished this tutorial!</p>}
+  {finished && <p>Jeg er færdig med min introduktion til Astro frameworket, og vil forsøge at arbejde med siden på egen hånd fra nu af.</p>}
 
   {
     goal === 3 ? (
-      <p>My goal is to finish in 3 days.</p>
+      <p>Mit mål er at skrive om økonomisk uafhængighed og udvikling her på bloggen.</p>
     ) : (
       <p>My goal is not 3 days.</p>
     )
@@ -69,7 +67,7 @@ const textCase = "uppercase";
       )
     }
   </ul>
-  <p>My skills are:</p><p></p><ul>
+  <p>Mine kompetencer:</p><p></p><ul>
     {skills.map((skill) => <li class="skill">{skill}</li>)}
   </ul>
 </BaseLayout>
