@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'My First Blog Post'
-pubDate: 2022-07-01
+title: '1. delmål mod at blive økonomisk uafhængig.'
+pubDate: 2023-06-01
 description: "This is the first post of my new Astro blog."
 author: "Andreas Lindegaard"
 image:
