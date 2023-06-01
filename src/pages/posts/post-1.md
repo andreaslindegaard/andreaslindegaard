@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: '1. delmål mod at blive økonomisk uafhængig.'
-pubDate: 2023-06-01
+pubDate: 06.01.2023
 description: "This is the first post of my new Astro blog."
 author: "Andreas Lindegaard"
 image:
